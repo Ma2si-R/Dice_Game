@@ -1,0 +1,94 @@
+* {
+    border-radius: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+html {
+    background-color: black;
+    align-self: center;
+    border: solid gold 5px;
+}
+
+body{
+    height: 20%;
+    border: solid gold 5px;
+    background: white;
+    border-radius: 10%;
+}
+.title {
+    color: red;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 3%;
+
+}
+
+.newGame {
+    background: lightgreen;
+    padding: 5%;
+    width: 8rem;
+  
+}
+
+.resetGame {
+    background: red;
+    text-align: center;
+    width: 5rem;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 0px;
+
+
+}
+
+.player1,
+.player2 {
+
+    display: grid;
+    justify-self: center;
+    align-self: center;
+
+    border: solid;
+    border-radius: 20%;
+    width: 5em;
+    padding: 10px;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+    padding: 3%;
+    margin: auto;
+    align-self: center;
+}
+
+.curentResult {
+    border: solid;
+    background: lightsteelblue;
+    border-radius: 100%;
+    width: 5%;
+    padding: 10%;
+    margin-top: 10%;
+    text-align: center;
+    justify-self: center;
+
+}
+
+.changeName {
+    background: lightblue;
+}
+
+.play {
+    padding: 1%;
+    justify-self: center;
+    background: green;
+    color: white;
+}
+
+
